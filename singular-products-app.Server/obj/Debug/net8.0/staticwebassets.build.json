@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "XEp7EplUi9iq+0Ulrk7nA3myvuD1j0WgljFJPJM31nw=",
+  "Source": "singular-products-app.Server",
+  "BasePath": "_content/singular-products-app.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\27810\\source\\repos\\singular-products-app\\singular-products-app.client\\singular-products-app.client.esproj",
+      "Version": 2,
+      "Source": "singular-products-app.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

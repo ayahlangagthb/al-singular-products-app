@@ -1,0 +1,74 @@
+info:
+  title: Singular.systems Products App
+  description:Singular.systems Products App
+  version: 1.0.0
+servers:
+  - url: http://localhost:5080/api
+paths:
+  /Products:
+    get:
+      summary: Get all products
+      responses:
+        '200':
+          description: A list of products
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Product'
+  /GetProductSales:
+    get:
+      summary: Get product sales by productId
+      parameters:
+        - in: query
+          name: productId
+          description: ID of the product to retrieve sales for
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: A list of product sales
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ProductSale'
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        id:
+          type: integer
+        description:
+          type: string
+        category:
+          type: string
+        image:
+          type: string
+      required:
+        - id
+        - description
+        - category
+    ProductSale:
+      type: object
+      properties:
+        saleId:
+          type: integer
+        productId:
+          type: integer
+        salePrice:
+          type: number
+        saleQty:
+          type: integer
+        saleDate:
+          type: string
+      required:
+        - saleId
+        - productId
+        - salePrice
+        - saleQty
+        - saleDate

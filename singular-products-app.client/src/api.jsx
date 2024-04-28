@@ -1,5 +1,5 @@
-const BASE_URL = 'http://localhost:5080/api/ProductSales'; // Base URL for the API
-
+const BASE_URL = 'http://localhost:5080/api/ProductSales'; // Base URL for the API (in future i should remember to add this to a property file)
+//because the host name may change dependiing on the port is app is ran.
 // Function to handle HTTP errors
 async function handleErrors(response) {
   if (!response.ok) {

@@ -1,33 +1,33 @@
 ﻿.product-card {
-  background-color:  #5f5d5d; /* Dark gray background color */
+  background-color:  #5f5d5d; 
   border: 1px solid #ccc;
   padding: 10px;
-  width: 250px; /* Set a fixed width for the card */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-  border-radius: 8px; /* Add rounded corners */
-  margin-bottom: 20px; /* Add margin to the bottom of the card */
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; 
+  margin-bottom: 20px;
   
 }
 
 .product-card img {
-  max-width: 100%; /* Make the image responsive */
-  max-height: 200px; /* Set a maximum height for the image */
-  display: block; /* Ensure the image is a block element */
-  margin: 0 auto 10px; /* Center the image horizontally and add bottom margin */
+  max-width: 100%; 
+  max-height: 200px; 
+  display: block; 
+  margin: 0 auto 10px;
 }
 
 .product-card h2 {
   margin-top: 0;
-  font-size: 18px; /* Increase font size for the title */
+  font-size: 18px; 
 }
 
 .product-card p {
   margin: 5px 0;
-  font-size: 14px; /* Adjust font size for other text */
+  font-size: 14px; 
 }
 .product-card.highlighted {
-  border: 2px solid green;
-  box-shadow: 0 0 5px green;
+  border: 5px solid rgb(0, 128, 21);
+  box-shadow: 0 0 5px rgb(0, 23, 128);
 }
 
 
@@ -61,4 +61,7 @@
 
 .input-container button:hover {
   background-color: #0056b3;
+}
+.product-card {
+  background-color: #333; /* Dark background color */
 }

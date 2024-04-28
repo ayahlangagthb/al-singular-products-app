@@ -33,3 +33,4 @@ C:\Users\27810\source\repos\singular-products-app\singular-products-app.Server\o
 C:\Users\27810\source\repos\singular-products-app\singular-products-app.Server\obj\Debug\net8.0\singular-products-app.Server.pdb
 C:\Users\27810\source\repos\singular-products-app\singular-products-app.Server\obj\Debug\net8.0\singular-products-app.Server.genruntimeconfig.cache
 C:\Users\27810\source\repos\singular-products-app\singular-products-app.Server\obj\Debug\net8.0\ref\singular-products-app.Server.dll
+C:\Users\27810\source\repos\singular-products-app\singular-products-app.Server\obj\Debug\net8.0\singular-products-app.Server.sourcelink.json

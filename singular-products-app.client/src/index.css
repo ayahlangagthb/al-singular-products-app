@@ -1,5 +1,3 @@
-/* Styles specific to the index page or components rendered by index.jsx */
-
 #productSalesView {
   margin-top: 20px;
 }
@@ -8,23 +6,21 @@
   margin-top: 20px;
 }
 
-/* Styling for the grid view if data is present */
 .grid-view {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
 }
 
-/* Styles for individual grid items */
 .grid-item {
-  background-color: #b4b1b1; /* Darker background color */
+  background-color: #b4b1b1; 
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 15px; 
 }
 
-/* Styles for the image within grid items */
+
 .grid-item img {
   max-width: 100%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 15px; 
 }

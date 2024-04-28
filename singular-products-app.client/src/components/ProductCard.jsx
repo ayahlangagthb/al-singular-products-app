@@ -16,19 +16,14 @@ function ProductCard({ product, productSales }) {
       setSalesSummary({ totalSales, totalRevenue });
       // Highlight the card when product sales are updated
       setHighlighted(true);
-      // Remove highlight after 10 seconds
-      const timeoutId = setTimeout(() => setHighlighted(false), 10000);
+      // Remove highlight after 20 seconds
+      const timeoutId = setTimeout(() => setHighlighted(false), 20000);
       return () => clearTimeout(timeoutId);
     } else {
       // If productSales is not available or empty, set salesSummary to null
       setSalesSummary(null);
     }
   }, [productSales]);
-
-  // Remove unused function handleValidationError
-  // const handleValidationError = () => {
-  //   // Your validation error handling logic here
-  // };
 
   return (
     <div className={`product-card ${highlighted ? 'highlighted' : ''}`}>
